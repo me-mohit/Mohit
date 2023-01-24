@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Note</title>
+    <link rel="stylesheet" href="Css/style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body style=" background-color: 	 #CBC3E3;">
+    
+    <nav class="navbar bg-pink">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Css/9109263-unscreen.gif" alt="Logo" width="60" height="50" class="d-inline-block align-text-top">
+            ArrowZones<sub>in</sub>
+          </a>
+        </div>
+      </nav>
+      <h1 class="heading" style="color: #7D0552;">Private  <img src="Css/6172541-unscreen.gif" style="height: 60px; ;width: 60px;;"><span style="color: #A70D2A;"  >Note</span></h1>
+    <div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" style=" background-color: 	 #CBC3E3;  border-radius: 20px ; "  placeholder="name@example.com" >
+        <label for="floatingInput" style="color: #ff009e; margin-left: 20px;">Enter Your Note </label>
+      </div>
+      
+      <div class="input-group mb-3">
+         <div type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="button-addon2" style=" background-color: #CBC3E3; border-radius: 20px ; "  id = "Final01"disabled></div>
+        <button class="btn btn-outline-secondary" type="button" id="Copy_Button" onclick="openpopup()">Copy</button>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <img src="Css/Done-unscreen.gif" style="background-color: lightgreen;" id="img">
+      <h1 id="Wish">Thanku You !</h1>
+      <h2 id="Msg" >Message Is copy In clipboard</h2>
+      <h3 id="What_copy"></h3>
+      <button onclick="closepopup()">Ok</button>
+  </div>
+    <button type="button" class="btn btn-outline-success" style="margin:20px ;" id="Change_button">Show me</button>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script   src="Pvt.note.js"></script>
+</body>
+</html>
